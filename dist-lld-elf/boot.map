@@ -1,0 +1,18 @@
+             VMA              LMA     Size Align Out     In      Symbol
+               0                0     7c00     1 . = 0x7C00
+            7c00             7c00        4     4 .text
+            7c00             7c00        2     1         ./dist-lld-elf/boot.o:(__start)
+            7c00             7c00        2     1                 main
+            7c02             7c02        0     1         _text = .
+            7c04             7c04        0     4         ./dist-lld-elf/boot.o:(.text)
+            7c04             7c04        0     1         _text_end = .
+            7c04             7dfe        2     1 .sig
+            7c04             7dfe        2     1         SHORT ( 0xaa55 )
+               0                0       3b     1 .comment
+               0                0       3b     1         <internal>:(.comment)
+               0                0       78     8 .symtab
+               0                0       78     8         <internal>:(.symtab)
+               0                0       2f     1 .shstrtab
+               0                0       2f     1         <internal>:(.shstrtab)
+               0                0       1d     1 .strtab
+               0                0       1d     1         <internal>:(.strtab)
